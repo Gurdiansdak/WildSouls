@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="black">
+            <p>Free shipping in Greece for Wild orders over 50 euros!</p>
+        </div>
+        <div class="container">
+            <div class="head">
+                <div>
+                    <p> <a href="#product">Products</a></p>  
+                    <p>  Who we are</p>
+                    <p>Concept Store </p>
+                </div>
+                <div>
+                    <p>Recipes </p>
+                    <p id="logIn">Log In </p>
+                    <p id="cart">Cart <span id="count">(0)</span> </p>
+                </div>
+                <div>
+                    <p> EN</p> 
+                    <img id="openMod" src="./img/icons8-меню-30.png" alt="">
+                </div>
+            </div>
+            <div class="burger">
+                <div class="rightBurger">
+                    <img id="closeBurger" src="./img/icons8-удалить-50.png" alt="">
+                    <p> <a href="#product">Products</a></p>
+                    <p>  Who we are</p>
+                    <p id="logIn">Log In </p>
+                    <p id="cart">Cart <span id="count">(0)</span></p>
+                </div>    
+            </div>
+            <div class="cart-modal  hide">
+                <div class="header">
+                    <h1>Your Cart</h1>
+                    <img id="crest" src="./img/icons8-удалить-50.png" alt="">
+                </div>
+                <div class="cart-list "></div>
+                <div class="total">
+                    <h1>
+                        Total: €
+                        <span>0.00</span> 
+                    </h1>
+                </div>
+                <button id="check">CHECKOUT</button>
+            </div>
+            <div class="modal sign  hide">
+                <div class="modal__dialog">
+                    <div class="modal__content">
+                        <form action="#">
+                            <div data-close class="modal__close">&times;</div>
+                            <div class="modal__title">Sign in</div>
+                            <div class="modal__subtitle">Email or mobile phone number</div>
+                            <input required name="name" type="email" class="modal__input">
+                            <button class="btn btn_dark btn_min google_btn"><img src="./img/free-icon-google-symbol-2875404.png" alt="">
+                                Continue with google</button>
+                            <button class="btn btn_dark btn_min">registr me</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="taste">
+                <img src="./img/Frame (11).svg" alt="">
+                <p>Taste the Wild.</p>
+                <p>Find your Soul.</p>
+            </div>
+            <button id="scroll"><img src="./img/Vector (4).svg" alt=""></button>
+        </div>
+    </header>
+
+    <section class="contant">
+        <div id="love">
+            <img src="./img/Frame (12).svg" alt="">
+            <div>
+                <h1>Wildly Loved</h1>
+                <p>You will find our wild products in their simplest form. No additives or <br> anything else can spoil
+                    their nature</p>
+            </div>
+        </div>
+        <div id="goods">
+            <div id="tovar">
+                <div id="fotka">
+                    <img src="./img/Rectangle (27).svg" alt="">
+                    <h1>The Wild Peanut <br>Butter</h1>
+                    <p>€ 4,90</p>
+                    <img src="https://static.wildsouls.gr/app/uploads/2020/10/fistikovoutiro-1-800x880.png" alt="">
+                </div>
+                <button id="buy">Buy Now!</button>
+            </div>
+            <div id="tovar1">
+                <div id="fotka1">
+                    <img src="./img/Rectangle (26).svg" alt="">
+                    <h1>Tahini with Cocoa & <br>Honey</h1>
+                    <p>€ 5,90</p>
+                    
+                    <img src="https://static.wildsouls.gr/app/uploads/2020/10/taxini_kakoa_meli-800x880.png" alt="">
+                </div>
+                <button id="buy">Buy Now!</button>
+            </div>
+            <div id="tovar2">
+                <div id="fotka2">
+                    <img src="./img/Rectangle (28).svg" alt="">
+                    <h1>The Wild Hazelnut <br> Butter</h1>
+                    <p>€ 6,90</p>
+                    <img src="https://static.wildsouls.gr/app/uploads/2020/10/fountoukovoutiro-800x880.png" alt="">
+                </div>
+                <button id="buy">Buy Now!</button>
+            </div>
+            <div id="tovar3">
+                <div id="fotka3">
+                    <img src="./img/Rectangle (26).svg" alt="">
+                    <h1>The Wild Peanut <br>Butter</h1>
+                    <p>€ 4,90</p>
+                    <img src="https://static.wildsouls.gr/app/uploads/2020/10/taxini_sisami-800x880.png" alt="">
+                </div>
+                <button id="buy">Buy Now!</button>
+            </div>
+            <div id="tovar4">
+                <div id="fotka4">
+                    <img src="./img/Rectangle (27).svg" alt="">
+                    <h1>The Wild Peanut <br>Butter</h1>
+                    <p>€ 6,90</p>
+                    <img src="https://static.wildsouls.gr/app/uploads/2020/10/kasious-800x880.png" alt="">
+                </div>
+                <button id="buy">Buy Now!</button>
+            </div>
+            <div id="tovar5">
+                <div id="fotka5">
+                    <img src="./img/Rectangle (28).svg" alt="">
+                    <h1>Tahini with Cocoa & <br>Honey</h1>
+                    <p>€ 5,90</p>
+                    <img src="https://static.wildsouls.gr/app/uploads/2020/10/taxini_meli-800x880.png" alt="">
+                </div>
+                <button id="buy">Buy Now!</button>
+            </div>
+            <div id="tovar6">
+                <div id="fotka6">
+                    <img src="./img/Rectangle (26).svg" alt="">
+                    <h1>The Wild Hazelnut <br> Butter</h1>
+                    <p>€ 5,90</p>
+                    <img src="https://static.wildsouls.gr/app/uploads/2020/10/taxini_futikes-ines-800x880.png" alt="">
+                </div>
+                <button id="buy">Buy Now!</button>
+            </div>
+        </div>
+
+
+        <div class="our">
+            <div class="left">
+                <h1>Our <br>Wild Way</h1>
+                <p>Our philosophy is present in every stage of our <br> production. We are endeavoring to contribute to
+                    <br> the creation of a better <span id="dots">...</span><span id="crysa">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis illo nesciunt, sit et alias aspernatur rem, assumenda quod unde cum animi consectetur? Eveniet, tenetur! Illum blanditiis corrupti excepturi nisi ex!</span></p>
+                <button id="disk">DISCOVER MORE!</button>
+            </div>
+            <div class="right">
+                <img src="./img/Rectangle (31).svg" alt="">
+                <img src="./img/Rectangle (30).svg" alt="">
+                <img src="./img/Rectangle (29).svg" alt="">
+            </div>
+        </div>
+        <div class="nut">
+
+            <div class="mendal">
+                <h1>Wild like a <br>Nut??</h1>
+                <div id="nutMendal">
+                    <div>
+                        <h2>Roasted <br>Almond</h2>
+                        <p>All the treasures are hidden in a <br>chest. Respectively, our <br> treasures are enclosed in
+                            their <br> Wild shell.</p>
+                        <p>250G | 5,00€</p>
+                        <button>TASTE IT!</button>
+                    </div>
+                    <div>
+                        <img src="./img/Frame (13).svg" alt="">
+                        <img src="./img/Rectangle (32).svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="discover">
+                <p>DISCOVER OUR <br> PRODUCTS THROUGH THE <br> 5 TREASURES OF NATURE!</p>
+                <h1>Sesame</h1>
+                <hr>
+                <h1>Peanut</h1>
+                <hr>
+                <h1>Almond</h1>
+                <hr>
+                <h1>Hazelnut</h1>
+                <hr>
+                <h1>Cashew</h1>
+                <hr>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="lips">
+        <div>
+            <img src="./img/Frame (14).svg" alt="">
+            <h2>POPANGADA</h2>
+            <p>A different shop in the center of Athens grinds <br> fruit, offers butter made from just one <br>
+                ingredient, and halva flavors that confirm that <br> healthy can be delicious.</p>
+        </div>
+        <div>
+            <p>Words <br> from the <br> soul!</p>
+            <div>
+                <img src="./img/Rectangle (33).svg" alt="">
+                <img src="./img/Rectangle (34).svg" alt="">
+            </div>
+        </div>
+        <div>
+            <img src="./img/Frame (14).svg" alt="">
+            <h2>Athens Voice</h2>
+            <p>Wild Souls works mainly with sesame and nut <br> products (pistachio, hazelnut, almond, <br> cashews),
+                creating hellish spreads that you <br> want to swallow with the jar.</p>
+        </div>
+    </section>
+
+    <section class="weAre">
+        <div class="concept">
+            <div>
+                <img src="./img/Frame (15).svg" alt="">
+                <h1>The <br> Concept <br> Store</h1>
+                <p>We invite you to explore it, live it, and take <br> photographs of it. But be careful, it is very
+                    <br> addictive! <span id="dots1">...</span><span id="crysa1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis illo nesciunt, sit et alias aspernatur rem, assumenda quod unde cum animi consectetur? Eveniet, tenetur! Illum blanditiis corrupti excepturi nisi ex!</span></p>
+                <button id="disk1">DISCOVER MORE!</button>
+            </div>
+            <img src="./img/Frame (1).png" alt="">
+        </div>
+
+
+
+        <div class="nut1">
+
+            <div class="mendal1">
+                <h1>Wild Halva</h1>
+                <div id="nutMendal1">
+                    <div>
+                        <h2>A magical seed..</h2>
+                        <p>It is neither a dessert nor a snack nor a proper meal. It is, though, all these
+                            simultaneously. It is what you want it to be.</p>
+                        <p>250G | 5,00€</p>
+                        <button>TASTE IT!</button>
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle (38).svg" alt="">
+                    </div>
+                </div>
+
+                
+            </div>
+            <div class="discover1">
+                <img src="./img/Frame (16).svg" alt="">
+                <h1>Spread your Love <br> with a Wild Gift!</h1>
+                <button>DISCOVER THEM NOW!</button>
+            </div>
+        </div>
+
+        <div class="treasures">
+                <div>
+                    <img src="./img/Frame (17).svg" alt="">
+                    <h1>The Five <br> Treasures</h1>
+                    <p>As Hippocrates said, we are what we eat. <br> Let’s see what happens by eating these WILD <br> treasures.<span id="dots2">...</span><span id="crysa2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis illo nesciunt, sit et alias aspernatur rem, assumenda quod unde cum animi consectetur? Eveniet, tenetur! Illum blanditiis corrupti excepturi nisi ex!</span></p>
+                    <button id="disk2">DISCOVER MORE!</button>
+                </div>
+                <div>
+                    <img src="./img/Frame (2).png" alt="">
+                    <img src="./img/Rectangle (39).svg" alt="">
+                </div>
+        </div>
+
+        <div class="otdelno">
+            <div>
+                <h1>Wild Recipes</h1>
+                <p>Take a look at the keyhole of our Wild kitchen! Get ideas on how to <br> turn your own kitchen into a Wild.</p>
+            </div>
+        </div>
+
+        <div class="fitch">
+            <div>
+                <img src="./img/Rectangle (40).svg" alt="">
+                <p>Salty</p>
+                <h1>Coleslaw with <br> High Fibre Tahini</h1>
+            </div>
+            <div>
+                <img src="./img/Rectangle (41).svg" alt="">
+                <p>Salty</p>
+                <h1>Wild Hummus</h1>
+            </div>
+            <div>
+                <img src="./img/Rectangle (42).svg" alt="">
+                <p>Sweet</p>
+                <h1>Wild 6 Ingredient <br> Granola</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <img src="./img/Frame (11).svg" alt="">
+    <div class="container">
+        
+        <div class="leftF">
+            <div>
+                <h1>Stay Wild!</h1>
+                <input type="text" placeholder="Write your email">
+            </div>
+
+            <div>
+                <h2>Follow Us</h2>
+                <div>
+                    <a href="https://instagram.com/wildsoulsgr?igshid=YmMyMTA2M2Y="><img src="./img/Group.svg" alt=""></a>    
+                    <a href="https://www.facebook.com/wildsoulsgr"><img src="./img/Group (1).svg" alt=""></a>    
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="./img/Frame (18).svg" alt="">
+                    <img src="./img/Frame (19).svg" alt="">
+                    <img src="./img/Frame (20).svg" alt="">
+                    <img src="./img/Frame (21).svg" alt="">
+                </div>
+                <p>Copyright 2021 Wild Souls <br> Website byBig Horror + No Matter</p>
+            </div>
+        </div>
+
+        <div class="rightF">
+
+            <div>
+                <h1 id="product">Products</h1>
+                <p>Sesame Βutter / Tahini</p>
+                <p>Nut Butters</p>
+                <p>Honey</p>
+                <p>Marmalades</p>
+                <p>Halva</p>
+                <p>Dry Nuts</p>
+                <p>Open Sesame</p>
+                <p>Gift Card</p>
+            </div>
+
+            <div>
+                <h1>Company</h1>
+                <p>Who we are</p>
+                <p>Our Wild Way</p>
+                <p>Concept Store</p>
+                <p>The Five Treasures</p>
+                <p>Recipes</p>
+            </div>
+
+        
+
+            <div>
+                <h1>Contact</h1>
+                <p><a href="mailto:info@wildsouls.gr">solid@gmail.com</a></p>
+                <p><a href="tel:+302103231438">+996 220 082 380</a></p>
+            </div>
+
+            <div>
+                <h1>Help</h1>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Cookies</p>
+                <p>Payment Methods</p>
+                <p>Shipping & Returns</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="brands">
+        <img src="./img/Group (2).svg" alt="">
+        <img src="./img/Group (3).svg" alt="">
+        <img src="./img/Frame (13).svg" alt="">
+        <img src="./img/Group (4).svg" alt="">
+        <img src="./img/Frame (14).svg" alt="">
+        <img src="./img/Group (5).svg" alt="">
+        <img src="./img/Group (2).svg" alt="">
+        <img src="./img/Group (3).svg" alt="">
+        <img src="./img/Frame (13).svg" alt="">
+        <img src="./img/Group (4).svg" alt="">
+        <img src="./img/Frame (14).svg" alt="">
+        <img src="./img/Group (5).svg" alt="">
+        <img src="./img/Group (2).svg" alt="">
+        <img src="./img/Group (3).svg" alt="">
+        <img src="./img/Frame (13).svg" alt="">
+        <img src="./img/Group (4).svg" alt="">
+        <img src="./img/Frame (14).svg" alt="">
+        <img src="./img/Group (5).svg" alt="">
+    </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
